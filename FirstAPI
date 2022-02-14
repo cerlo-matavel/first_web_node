@@ -1,0 +1,11 @@
+1. File be CSV 
+
+2. Server must respond with JSON Content: --- CHECK
+
+{"name":"Mario","email":"example@email.com", "id": 10} --- CHECK
+
+3. Error must use status code 500:
+
+{"message": "skjskjksjksjg"} --- CHECK
+
+
